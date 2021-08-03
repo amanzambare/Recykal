@@ -45,7 +45,7 @@ img{
   width: 50px;
 }
 .cards{
-  height: 1400px;
+  height: 1000px;
   width: 1400px;
   display: grid;
   
@@ -66,4 +66,8 @@ img{
 }
 ul{
   list-style-type: none;
+}
+.details{
+  display: grid;
+  flex: rigth;
 }

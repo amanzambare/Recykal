@@ -93,6 +93,17 @@ const Product = () => {
             }
         </ul>
         </div>
+        <div className="details">
+            <h6>Total No. of Items: {added.length}</h6>
+            <h6>Grand Total  {added.map((ab)=>{
+                let aa=0;
+                aa+=ab.price;
+                return aa;
+            })}</h6>
+            <input type="text" placeholder="Enter Your Name"/>
+            <input type="email" placeholder="Enter Your Email"/>
+            <input type="number" placeholder="Enter Your Phone"/>
+        </div>
     </div>
     )
 }
